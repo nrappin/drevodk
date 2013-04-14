@@ -65,7 +65,7 @@
 <string name="do_not_save">Ignore Changes</string>
 <string name="entering_repeat">Add Group</string>
 <string name="entering_repeat_ask">Add New Group?</string>
-<string name="enter_data">Start Form</string>
+<string name="enter_data">Start New Form</string>
 <string name="enter_data_button">Start Form</string>
 <string name="error_occured">Error Occurred</string>
 <string name="fetching_file">Getting %1$s.\n\nForm %2$s of %3$s form(s).</string>
@@ -125,8 +125,8 @@
 <string name="save_enter_data_description">You are at the end of %s.</string>
 <string name="saving_form">Saving Form</string>
 <string name="sending_items">Sending %1$s of %2$s form(s)</string>
-<string name="send_data">Send Finalized Form</string>
-<string name="send_data_button">Send Finalized Form (%s)</string>
+<string name="send_data">Upload Data</string>
+<string name="send_data_button">Upload Data (%s)</string>
 <string name="send_selected_data">Send Selected</string>
 <string name="server_auth_credentials">Please enter username and password for server:\n%s</string>
 <string name="server_requires_auth">Server Requires Authentication</string>

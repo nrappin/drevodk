@@ -250,7 +250,7 @@ public class MainMenuActivity extends Activity {
 				AdminPreferencesActivity.ADMIN_PREFERENCES, 0);
 
 		boolean edit = sharedPreferences.getBoolean(
-				AdminPreferencesActivity.KEY_EDIT_SAVED, true);
+				AdminPreferencesActivity.KEY_EDIT_SAVED, false);
 		if (!edit) {
 			mReviewDataButton.setVisibility(View.GONE);
 			mReviewSpacer.setVisibility(View.GONE);
@@ -278,7 +278,7 @@ public class MainMenuActivity extends Activity {
 		}
 
 		boolean delete_saved = sharedPreferences.getBoolean(
-				AdminPreferencesActivity.KEY_DELETE_SAVED, true);
+				AdminPreferencesActivity.KEY_DELETE_SAVED, false);
 		if (!delete_saved) {
 			mManageFilesButton.setVisibility(View.GONE);
 		} else {
@@ -314,7 +314,7 @@ public class MainMenuActivity extends Activity {
 		menu.add(0, MENU_PREFERENCES, 0,
 				getString(R.string.general_preferences)).setIcon(
 				android.R.drawable.ic_menu_preferences);
-		menu.add(0, MENU_ADMIN, 0, getString(R.string.admin_preferences))
+		  menu.add(0, MENU_ADMIN, 0, getString(R.string.admin_preferences))
 				.setIcon(R.drawable.ic_menu_login);
 		return true;
 	}

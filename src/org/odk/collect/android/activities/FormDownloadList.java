@@ -496,7 +496,7 @@ public class FormDownloadList extends ListActivity implements FormListDownloader
         SparseBooleanArray sba = getListView().getCheckedItemPositions();
         for (int i = 0; i < getListView().getCount(); i++) {
         	
-        	/////////
+        	/////////   Appy 
             //if (sba.get(i, false)) {
         	
                 HashMap<String, String> item =
